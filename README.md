@@ -2,7 +2,7 @@
 ### python developer and linux system administrator
 * 🌍  I'm based in Madrid
 * ✉️  You can contact me at [sergio.arroyo.alba.94@gmail.com](mailto:sergio.arroyo.alba.94@gmail.com)
-* 🧠  I'm learning aws, python.
+* 🧠  I'm learning aws, python, docker.
 * 🤝  I'm open to collaborating on interesting proyects
 
 ### Skills
