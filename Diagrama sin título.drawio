@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T16:24:32.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="DhpJVSEHMxFBW1sPJvAr" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T16:41:34.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="haQfmSdoxa8BooOHb7OY" version="22.1.11" type="github">
   <diagram name="Página-1" id="99nM4WhFxuQZ9rbI-EJJ">
     <mxGraphModel dx="1188" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,13 +21,13 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JNu_L3kMzaR1ub78Koap-16" value="OPTION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="150" width="240" height="240" as="geometry">
-            <mxRectangle x="40" y="150" width="90" height="30" as="alternateBounds" />
+        <mxCell id="JNu_L3kMzaR1ub78Koap-16" value="&lt;font color=&quot;#004080&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;OPTION&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="150" width="250" height="290" as="geometry">
+            <mxRectangle x="10" y="150" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JNu_L3kMzaR1ub78Koap-19" value="&amp;gt; --name -&amp;gt; nombramos el container&lt;br&gt;&amp;gt; --detach -&amp;gt; se ejecuta en segundo plano&lt;br&gt;&amp;gt; --rm -&amp;gt; una vez parado se elimina&amp;nbsp;&lt;br&gt;&amp;gt; -it -&amp;gt; corremos el contenedor en modo interactivo&lt;br&gt;&amp;gt; --network -&amp;gt; le seleccionamos la red&amp;nbsp;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JNu_L3kMzaR1ub78Koap-16">
-          <mxGeometry y="30" width="240" height="210" as="geometry" />
+        <mxCell id="JNu_L3kMzaR1ub78Koap-19" value="&amp;gt; &lt;b&gt;--name&lt;/b&gt; -&amp;gt; nombramos el container&lt;br&gt;&amp;gt;&lt;b&gt; --detach&lt;/b&gt; -&amp;gt; se ejecuta en segundo plano&lt;br&gt;&amp;gt; &lt;b&gt;--rm&lt;/b&gt; -&amp;gt; una vez parado se elimina&amp;nbsp;&lt;br&gt;&amp;gt;&lt;b&gt; -it&lt;/b&gt; -&amp;gt; corremos el contenedor en modo interactivo&lt;br&gt;&amp;gt; &lt;b&gt;--network&lt;/b&gt; -&amp;gt; le seleccionamos la red&amp;nbsp;&lt;br&gt;&amp;gt; &lt;b&gt;--publish&lt;/b&gt; -&amp;gt; publica los puertos del contenedor&lt;br&gt;&amp;gt; &lt;b&gt;--env &lt;/b&gt;-&amp;gt; crea variables de entorno dentro del contenedor&lt;br&gt;&amp;gt; &lt;b&gt;--entrypoint&lt;/b&gt; -&amp;gt; modifica el entrypoint del contenedor&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JNu_L3kMzaR1ub78Koap-16">
+          <mxGeometry y="30" width="250" height="260" as="geometry" />
         </mxCell>
         <mxCell id="JNu_L3kMzaR1ub78Koap-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.643;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="JNu_L3kMzaR1ub78Koap-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -35,6 +35,37 @@
             <mxPoint x="120" y="130" as="targetPoint" />
             <Array as="points">
               <mxPoint x="220" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNu_L3kMzaR1ub78Koap-24" value="&lt;font color=&quot;#004080&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;COMMAND&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="150" width="250" height="290" as="geometry">
+            <mxRectangle x="289" y="150" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNu_L3kMzaR1ub78Koap-33" value="Si añadimos un comando despues de la imagen se ejecutrara una vez haya terminado de ejecutarse por ejemplo:&amp;nbsp;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#006600&quot;&gt;docker container run ubuntu:22.04 ls -la /&lt;/font&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;gt; nos muestra una vez finalizado los elementos de raiz" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JNu_L3kMzaR1ub78Koap-24">
+          <mxGeometry y="30" width="250" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JNu_L3kMzaR1ub78Koap-26" value="&lt;font color=&quot;#004080&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ARGS&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="250" height="290" as="geometry">
+            <mxRectangle x="560" y="150" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNu_L3kMzaR1ub78Koap-28" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.564;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="JNu_L3kMzaR1ub78Koap-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="80" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNu_L3kMzaR1ub78Koap-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.475;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="JNu_L3kMzaR1ub78Koap-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="80" as="sourcePoint" />
+            <mxPoint x="480" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
